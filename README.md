@@ -176,39 +176,12 @@ different-paths-to-unresponsiveness/
 
 
 
-### EEG Complexity
-
-
-
-Mean Lempel-Ziv Complexity:
-
-
-
-| State       | Mean LZC |
-
-| ----------- | -------- |
-
-| Wakefulness | 0.351    |
-
-| Deep Sleep  | 0.373    |
-
-
-
 ### Spectral Dynamics
 
 
 
 Spectral slope analysis revealed changes in the 1/f structure between wakefulness and sleep, reflecting altered neural synchronization and information processing.
 
-
-
-| State       | Spectral Slope |
-
-| ----------- | -------------- |
-
-| Wakefulness | -0.041         |
-
-| Deep Sleep  | -0.056         |
 
 
 
@@ -224,43 +197,13 @@ Wakefulness exhibited more complex and irregular trajectories, whereas deep slee
 
 
 
-### fMRI Variability
-
-
-
-After signal standardization:
-
-
-
-| State    | Mean Variability |
-
-| -------- | ---------------- |
-
-| Sleep    | 0.0153           |
-
-| Propofol | 0.0124           |
-
-
-
-Natural sleep preserved higher temporal variability than propofol anesthesia.
-
 
 
 ### Spatial Entropy
 
 
 
-| State    | Entropy |
-
-| -------- | ------- |
-
-| Sleep    | 2.424   |
-
-| Propofol | 2.510   |
-
-
-
-Propofol exhibited higher spatial entropy despite lower temporal variability.
+Propofol exhibited higher spatial entropy.
 
 
 
