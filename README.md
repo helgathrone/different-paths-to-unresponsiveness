@@ -1,8 +1,8 @@
-\# Different Paths to Unresponsiveness
+# Different Paths to Unresponsiveness
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -14,9 +14,9 @@ This project investigates altered states of consciousness using multimodal neuro
 
 
 
-\* EEG recordings during wakefulness and deep sleep
+* EEG recordings during wakefulness and deep sleep
 
-\* fMRI recordings during deep sleep and propofol anesthesia
+* fMRI recordings during deep sleep and propofol anesthesia
 
 
 
@@ -24,33 +24,33 @@ The goal is to compare temporal and spatial signatures of reduced consciousness 
 
 
 
-\---
+---
 
 
 
-\## Research Questions
+## Research Questions
 
 
 
-1\. How does EEG complexity change between wakefulness and deep sleep?
+1. How does EEG complexity change between wakefulness and deep sleep?
 
-2\. Can nonlinear dynamical systems theory reveal changes in neural attractor geometry?
+2. Can nonlinear dynamical systems theory reveal changes in neural attractor geometry?
 
-3\. How do spatial patterns of brain activity differ between natural sleep and propofol anesthesia?
+3. How do spatial patterns of brain activity differ between natural sleep and propofol anesthesia?
 
-4\. Do different unconscious states exhibit distinct neural signatures despite similar behavioral outcomes?
-
-
-
-\---
+4. Do different unconscious states exhibit distinct neural signatures despite similar behavioral outcomes?
 
 
 
-\## Dataset
+---
 
 
 
-\### Sleep EEG \& fMRI
+## Dataset
+
+
+
+### Sleep EEG \& fMRI
 
 
 
@@ -58,15 +58,15 @@ Subject 23
 
 
 
-\* Wakefulness (resting-state EEG)
+* Wakefulness (resting-state EEG)
 
-\* Deep sleep (N3 EEG)
+* Deep sleep (N3 EEG)
 
-\* Deep sleep fMRI
+* Deep sleep fMRI
 
 
 
-\### Propofol fMRI
+### Propofol fMRI
 
 
 
@@ -74,15 +74,15 @@ Subject 02
 
 
 
-\* Resting-state fMRI under propofol anesthesia
+* Resting-state fMRI under propofol anesthesia
 
 
 
-\---
+---
 
 
 
-\## Project Structure
+## Project Structure
 
 
 
@@ -118,67 +118,65 @@ different-paths-to-unresponsiveness/
 
 
 
-\---
+---
 
 
 
-\## Methods
+## Methods
 
 
 
-\### EEG Analysis
+### EEG Analysis
 
 
 
-\* Band-pass filtering (0.5–45 Hz)
+* Band-pass filtering (0.5–45 Hz)
 
-\* Alpha, Beta and Delta rhythm visualization
+* Alpha, Beta and Delta rhythm visualization
 
-\* Spectral slope (1/f dynamics)
-
-\* Lempel-Ziv Complexity (LZC)
-
-
-
-\### Nonlinear Dynamics
+* Spectral slope (1/f dynamics)
+  
+* Lempel-Ziv Complexity (LZC)
 
 
 
-\* Delay embedding
-
-\* Phase-space reconstruction
-
-\* EEG attractor visualization
-
-\* Sample entropy
-
-\* Higuchi fractal dimension
+### Nonlinear Dynamics
 
 
 
-\### fMRI Analysis
+* Delay embedding
+
+* Phase-space reconstruction
+
+* EEG attractor visualization
+
+* Sample entropy
+
+* Higuchi fractal dimension
 
 
 
-\* Mean BOLD activity maps
-
-\* Voxel intensity distributions
-
-\* Signal variability maps
-
-\* Spatial entropy estimation
+### fMRI Analysis
 
 
 
-\---
+* Mean BOLD activity maps
+
+* Signal variability maps
+
+* Spatial entropy estimation
 
 
 
-\## Key Results
+---
 
 
 
-\### EEG Complexity
+## Key Results
+
+
+
+### EEG Complexity
 
 
 
@@ -196,7 +194,7 @@ Mean Lempel-Ziv Complexity:
 
 
 
-\### Spectral Dynamics
+### Spectral Dynamics
 
 
 
@@ -214,7 +212,7 @@ Spectral slope analysis revealed changes in the 1/f structure between wakefulnes
 
 
 
-\### Nonlinear Dynamics
+### Nonlinear Dynamics
 
 
 
@@ -226,7 +224,7 @@ Wakefulness exhibited more complex and irregular trajectories, whereas deep slee
 
 
 
-\### fMRI Variability
+### fMRI Variability
 
 
 
@@ -248,7 +246,7 @@ Natural sleep preserved higher temporal variability than propofol anesthesia.
 
 
 
-\### Spatial Entropy
+### Spatial Entropy
 
 
 
@@ -266,11 +264,11 @@ Propofol exhibited higher spatial entropy despite lower temporal variability.
 
 
 
-\---
+---
 
 
 
-\# Scientific Conclusions
+# Scientific Conclusions
 
 
 
@@ -278,11 +276,11 @@ This project demonstrates that while natural sleep and propofol-induced anesthes
 
 
 
-\## 1. EEG Dynamics and Phase-Space Geometry
+## 1. EEG Dynamics and Phase-Space Geometry
 
 
 
-\### Collapse of Neural Complexity
+### Collapse of Neural Complexity
 
 
 
@@ -290,7 +288,7 @@ Analysis of spectral slope (1/f) and Lempel-Ziv complexity indicates that reduce
 
 
 
-\### Attractor Topology
+### Attractor Topology
 
 
 
@@ -306,15 +304,15 @@ Deep sleep collapses into lower-dimensional synchronized macro-oscillations, con
 
 
 
-\---
+---
 
 
 
-\## 2. fMRI Spatial Signatures
+## 2. fMRI Spatial Signatures
 
 
 
-\### Reduced Temporal Variability under Propofol
+### Reduced Temporal Variability under Propofol
 
 
 
@@ -326,7 +324,7 @@ This suggests that sleep preserves a richer repertoire of brain-state fluctuatio
 
 
 
-\### Increased Spatial Entropy under Propofol
+### Increased Spatial Entropy under Propofol
 
 
 
@@ -338,11 +336,11 @@ This finding suggests a more diffuse and less spatially organized distribution o
 
 
 
-\---
+---
 
 
 
-\## Summary
+## Summary
 
 
 
@@ -358,45 +356,45 @@ These results suggest that similar behavioral states of unresponsiveness can eme
 
 
 
-\---
+---
 
 
 
-\## Technologies
+## Technologies
 
 
 
-\* Python
+* Python
 
-\* Jupyter Notebook
+* Jupyter Notebook
 
-\* MNE
+* MNE
 
-\* Nilearn
+* Nilearn
 
-\* Nibabel
+* Nibabel
 
-\* NumPy
+* NumPy
 
-\* SciPy
+* SciPy
 
-\* Matplotlib
+* Matplotlib
 
-\* Antropy
+* Antropy
 
-\* Pandas
+* Pandas
 
-\* Git
+* Git
 
-\* GitHub
-
-
-
-\---
+* GitHub
 
 
 
-\## Future Work
+---
+
+
+
+## Future Work
 
 
 
@@ -404,15 +402,15 @@ Potential extensions of the project include:
 
 
 
-\* Functional connectivity analysis
+* Functional connectivity analysis
 
-\* Graph-theoretical network metrics
+* Graph-theoretical network metrics
 
-\* Recurrence quantification analysis (RQA)
+* Recurrence quantification analysis (RQA)
 
-\* Cross-subject comparisons
+* Cross-subject comparisons
 
-\* Integration of EEG and fMRI complexity measures into a unified consciousness framework
+* Integration of EEG and fMRI complexity measures into a unified consciousness framework
 
 
 
