@@ -1,6 +1,10 @@
 # Different Paths to Unresponsiveness
 
 
+<p align="center">
+  <img src="outputs/phase_portrait_3d.png" width="800">
+</p>
+
 
 ## Overview
 
